@@ -1,5 +1,5 @@
-#https://leetcode.com/problems/task-scheduler/submissions/846384760/
-#2022-11-19 Hongsik Kim
+# https://leetcode.com/problems/task-scheduler/submissions/846384760/
+# 2022-11-19 Hongsik Kim
 
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
