@@ -15,9 +15,9 @@ class Solution:
             if i >= 2:
                 # like the explaination, each number is the sum of the two numbers directly above it as shown.
                 # update the number in the middle.         
-                for j in range(1,i):
+                for j in range(1,i): # O(n)
                     pascal_triangle[i][j] = pascal_triangle[i-1][j-1]+pascal_triangle[i-1][j]
         
-        return pascal_triangle
+        return pascal_triangle # O(n^2)
             
         
