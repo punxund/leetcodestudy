@@ -23,10 +23,7 @@ class Solution:
         find_node(root)
         
         return sum(list_dfs) #O(n)
-
-
-
-        
+     
         
         
         

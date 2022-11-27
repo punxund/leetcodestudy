@@ -1,6 +1,7 @@
 #https://leetcode.com/problems/time-needed-to-inform-all-employees/
-#2022-11-18 Hongsik Kim
+#2022-11-18 Hongsik Kim 
 
+# This was not accepted in leedcode. Correct, but it tooks so long.
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
         time_list = [0]*n
