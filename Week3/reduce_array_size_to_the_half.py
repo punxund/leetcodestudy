@@ -22,7 +22,7 @@ class Solution:
         #       return new_dict.index(number)+1
 
         numbers_to_remove = 0
-        for number in sorted(dict_number.values()):
+        for number in sorted(dict_number.values(), reverse=True): # O(nlogn)
             sum_count += number
             numbers_to_remove  += 1
             if sum_count >= len(arr)/2:
