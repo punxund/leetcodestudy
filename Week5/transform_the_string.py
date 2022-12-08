@@ -7,7 +7,7 @@ input_ = list(input() for _ in range(case_number*2))
 string_list = []
 target_list = []
 for i in range(len(input_)):
-    if input % 2 == 0:
+    if i % 2 == 0:
          string_list.append(input_[i])
     else:
         target_list.append(input_[i])
