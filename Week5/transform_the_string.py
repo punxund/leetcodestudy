@@ -8,7 +8,7 @@ string_list = []
 target_list = []
 for i in range(len(input_)):
     if i % 2 == 0:
-         string_list.append(input_[i])
+        string_list.append(input_[i])
     else:
         target_list.append(input_[i])
 

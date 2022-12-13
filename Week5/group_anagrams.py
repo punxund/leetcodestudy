@@ -12,8 +12,7 @@ class Solution:
             # if str has same structure, save on the dictionary in the anagram group
             if sorted_str in anagram_dict.keys(): # O(m), m is length of anagram groups.
                 anagram_dict[sorted_str].append(str)
-            else:
-                anagram_list.append(sorted_str) 
+            else: 
                 anagram_dict[sorted_str] = [str]
         
         return anagram_dict.values()
