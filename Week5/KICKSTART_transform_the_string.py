@@ -13,9 +13,9 @@ for i in range(len(input_)):
         target_list.append(input_[i])
 
 # function that changing target string to target number list. 
-def target_to_number(Target):
+def target_to_number(target):
     target_number = []
-    for char in Target:
+    for char in target:
         number = ord(char) # using ord function get the number of character
         target_number.append(number)
         target_number.append(number-26) # becauese it is cyclic 
